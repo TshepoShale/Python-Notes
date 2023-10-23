@@ -103,6 +103,14 @@ dir(__builtins__), dir(__doc__), dir(__name__), and dir(__package__) cannot be u
 #### Implicit Casting: 
 In Python, automatic type conversion, also known as implicit casting, allows the interpreter to automatically convert compatible data types, such as integers to floats or floats to strings, as needed during operations or assignments, simplifying code and enhancing flexibility. Also ensures that no data is lost when these conversions occur. 
 
+#### Explicit Casting: 
+A value cannot be automatically cast from one data type to another if it will result in data loss. Extra code has to be written to ensure that the value stays the same and only the data type changes; like when casting from a floating-point value to an integer value. 
+
+The rules to convert a string to a float are:
+* The string should only contain numbers.
+* Other than numbers the following are allowed:
+* Only one dot (.) character. Indicates the decimal starts after the dot (.) character.
+A ‘+’ or ‘−‘ character at the beginning of the string. This indicates that the number is either positive or negative.
 
 
 
