@@ -76,6 +76,25 @@ Here are a few examples of invalid variable names:
 * $name
 * 12Graph
 
+NB: *In Python identifiers are case sensitive!!!*
+NB: *Variables cannot have the same name as Python’s keywords!!!*
+
+We can find out what keywords are in Python, by using the function called dir(). If this function is called with the __builtins__ attribute, it returns a list of Python’s built-in attributes.
+
+The __builtins__ module contains all Python’s built-in attributes, which can be used with the dir()function.
+
+The ones that are returned are identified with the following characteristics:
+
+* Python’s built-in exceptions start with a capital letter.
+* The rest are either functions or data type names.
+* Identifiers that start and end with one or two underscores are special methods.
+
+  NB: *All of the methods, exceptions, and functions contained in  
+dir(__builtins__), dir(__doc__), dir(__name__), and dir(__package__) cannot be used as variable names.*
+
+
+
+
 
 
 
