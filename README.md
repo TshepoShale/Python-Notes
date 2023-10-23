@@ -93,7 +93,15 @@ The ones that are returned are identified with the following characteristics:
   NB: *All of the methods, exceptions, and functions contained in  
 dir(__builtins__), dir(__doc__), dir(__name__), and dir(__package__) cannot be used as variable names.*
 
+### Using Variables: 
+* All variables are assigned to a data type, be it a STRING, or an INTEGER. 
+* Values of the same type can be manipulated together.
+* In Python, automatic type conversion, also known as implicit casting, allows the interpreter to automatically convert compatible data types, such as integers to floats or floats to strings, as needed during operations or assignments, simplifying code and enhancing flexibility.
 
+### Casting: 
+
+#### Implicit Casting: 
+In Python, automatic type conversion, also known as implicit casting, allows the interpreter to automatically convert compatible data types, such as integers to floats or floats to strings, as needed during operations or assignments, simplifying code and enhancing flexibility. Also ensures that no data is lost when these conversions occur. 
 
 
 
