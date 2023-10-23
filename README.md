@@ -77,6 +77,7 @@ Here are a few examples of invalid variable names:
 * 12Graph
 
 NB: *In Python identifiers are case sensitive!!!*
+
 NB: *Variables cannot have the same name as Python’s keywords!!!*
 
 We can find out what keywords are in Python, by using the function called dir(). If this function is called with the __builtins__ attribute, it returns a list of Python’s built-in attributes.
