@@ -68,6 +68,8 @@ Here are a few examples of valid variable names:
 * ref_number
 * admin
 * aVeryLongName
+
+  
 Here are a few examples of invalid variable names:
 
 * True
