@@ -1,4 +1,5 @@
 # Introduction to Python: 
+## Week 1: 
 ## Day 1: 
 ### What is Python?:
 Python is an interpreted language. This means that a new executable file is created when you run your code. The next time that you execute your code, this new executable file is run instead of the original file.
@@ -46,6 +47,32 @@ match
 
 ### Anaconda Navigator: 
 Anaconda is a popular open-source distribution of Python and other data science-related packages. It simplifies the process of installing, managing, and updating Python libraries for data science, machine learning, and scientific computing. Anaconda includes tools such as conda, a powerful package manager, and provides an environment management system, allowing users to create isolated Python environments for different projects, making it easier to manage dependencies and avoid conflicts between packages.
+
+## Day 2: 
+## Variables: 
+Variables in programming act as temporary storage spaces in a computer's memory, holding various data values. When a variable's value changes, it affects the program's current state. They serve as containers for different data items, and understanding them is essential for programming. Variables are crucial in all programming languages, allowing data transfer between functions and making programming tasks more manageable.
+Each variable is created with an initial value. A value can be in *THREE* states: 
+1. Variable creation (Declaration)
+2. Variable assignment (Initialization)
+3. Variable changed (Execution)
+
+NB: Once the code which created the variable has finished executing, the variable is destroyed.
+
+NB: In Python, variables are defined in a standard way, by using the assignment character (=). This changes the value of the variable. Naming conventions specify the way in which variables should be named. This standard is used to make code more readable, and thus easier to understand.
+
+The rules include the start and continuation characters. Variable names may contain any upper or lower case letter (A–Z, a–z), a number, or the underscore character. They may not begin with a number or contain spaces. Continuation characters are any characters except whitespace characters like tab and space.
+
+Here are a few examples of valid variable names:
+
+* c
+* ref_number
+* admin
+* aVeryLongName
+Here are a few examples of invalid variable names:
+
+* True
+* $name
+* 12Graph
 
 
 
