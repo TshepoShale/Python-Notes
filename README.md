@@ -15,8 +15,8 @@ Comments are added to make the source code easier to understand. Comments in Pyt
 * Vertical tab: \v
 * Backspace: \b
 * Carriage return: \r
-* Single quote (useful in strings enclosed in single quotes: ‘hello \ ‘World’): \'
-* Double quote (useful in strings enclosed in single quotes: “hello \ “World”): \"
+* Single quote (useful in strings enclosed in single quotes: ‘hello \ ‘World’): \\'
+* Double quote (useful in strings enclosed in single quotes: “hello \ “World”): \\"
 
 
 ### Reserved words in Python:
