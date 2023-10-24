@@ -112,6 +112,13 @@ The rules to convert a string to a float are:
 * Only one dot (.) character. Indicates the decimal starts after the dot (.) character.
 A ‘+’ or ‘−‘ character at the beginning of the string. This indicates that the number is either positive or negative.
 
+## Day 3: 
+## Data Types: 
+
+NB: Literals are an alternative to using variables. Literals are values that never change, i.e. they are a constant.
+Examples of literals: 
+* ""\t""
+
 
 
 
