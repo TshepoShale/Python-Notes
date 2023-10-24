@@ -117,8 +117,19 @@ A ‘+’ or ‘−‘ character at the beginning of the string. This indicates 
 
 NB: Literals are an alternative to using variables. Literals are values that never change, i.e. they are a constant.
 Examples of literals: 
-* ""\t""
-
+* "\t"
+* "This is only a string"
+* "2"
+### Intergers:
+ These represent numbers in an unlimited range. This is only limited by a machine’s memory.
+ ### Booleans: 
+  Evaluate to ‘True or False’, 1 or 0 respectively.
+  ###  Floating point numbers:
+  Floating-point numbers represent double-precision numbers.
+### Complex numbers:
+ Complex numbers represent numbers as a pair of double-precision numbers.
+ ### Strings: 
+A sequence of Unicode characters e.g. a word or a sentence that can be manipulated.
 
 
 
