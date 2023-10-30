@@ -132,4 +132,86 @@ Examples of literals:
 A sequence of Unicode characters e.g. a word or a sentence that can be manipulated.
 
 
+## Day 4: 
+### Operators:  
+#### Arithmetic Operators:
+Arithmetic operators are used for basic mathematical operations.
+
+x = 10
+y = 5
+
+addition = x + y  # Result: 15
+subtraction = x - y  # Result: 5
+multiplication = x * y  # Result: 50
+division = x / y  # Result: 2.0 (in Python 3.x, division always returns a float)
+modulus = x % y  # Result: 0 (remainder of x divided by y)
+exponentiation = x ** y  # Result: 100000
+
+#### Comparison Operators:
+Comparison operators are used to compare two values.
+
+x = 10
+y = 5
+
+is_equal = x == y  # Result: False
+not_equal = x != y  # Result: True
+greater_than = x > y  # Result: True
+less_than = x < y  # Result: False
+greater_or_equal = x >= y  # Result: True
+less_or_equal = x <= y  # Result: False
+
+
+#### Logical Operators:
+Logical operators are used for combining conditional statements.
+
+**x = True
+y = False
+
+logical_and = x and y  # Result: False
+logical_or = x or y  # Result: True
+logical_not = not x  # Result: False
+
+#### Assignment Operators:
+Assignment operators are used to assign values to variables.
+
+x = 10
+
+x += 5  # Equivalent to: x = x + 5 (Result: 15)
+x -= 3  # Equivalent to: x = x - 3 (Result: 12)
+x *= 2  # Equivalent to: x = x * 2 (Result: 24)
+x /= 4  # Equivalent to: x = x / 4 (Result: 6.0)
+
+#### Identity Operators:
+Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object.
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+is_same_object = x is y  # Result: False (different objects)
+is_not_same_object = x is not y  # Result: True
+
+#### Membership Operators:
+Membership operators are used to test if a sequence (such as a list, tuple, or string) contains a specific item.
+my_list = [1, 2, 3, 4, 5]
+
+is_present = 3 in my_list  # Result: True
+is_not_present = 6 not in my_list  # Result: True
+
+#### Bitwise Operators:
+Bitwise operators are used for bitwise operations on integers.
+x = 5
+y = 3
+
+bitwise_and = x & y  # Result: 1 (bitwise AND of 5 and 3 in binary: 101 & 011 = 001)
+bitwise_or = x | y  # Result: 7 (bitwise OR of 5 and 3 in binary: 101 | 011 = 111)
+bitwise_xor = x ^ y  # Result: 6 (bitwise XOR of 5 and 3 in binary: 101 ^ 011 = 110)
+bitwise_not_x = ~x  # Result: -6 (bitwise NOT of 5 in binary: ~101 = 11111111111111111111111111111010)
+left_shift = x << 1  # Result: 10 (left shift 5 by 1 bit: 101 << 1 = 1010)
+right_shift = x >> 1  # Result: 2 (right shift 5 by 1 bit: 101 >> 1 = 10)
+
+
+
+
+
+
 
