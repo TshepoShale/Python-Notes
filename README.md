@@ -209,6 +209,10 @@ bitwise_not_x = ~x  # Result: -6 (bitwise NOT of 5 in binary: ~101 = 11111111111
 left_shift = x << 1  # Result: 10 (left shift 5 by 1 bit: 101 << 1 = 1010)
 right_shift = x >> 1  # Result: 2 (right shift 5 by 1 bit: 101 >> 1 = 10)
 
+## Week 2: 
+## Day 1: 
+### Control Flow: 
+
 
 
 
